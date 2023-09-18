@@ -1,0 +1,92 @@
+/* Browser Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana, arial, sans-serif;
+}
+
+body {
+  background: #4e4e94;
+}
+
+section {
+  position: relative;
+}
+
+
+/*Styling for the title and intro*/
+.title {
+  font-size: 5vw;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.jacaranda--intro {
+  position: absolute;
+  padding-left: 9%;
+  bottom: 9%;
+}
+
+.jacaranda--intro p {
+  padding: 10px 0;
+  text-align: center;
+  color: #F0E0F3;
+  text-shadow: 1px 3px 3px black;
+}
+
+.jacaranda--img {
+width: 100%;
+}
+
+/*Styling for the rest of the images in general*/
+.imgs--jacaranda {
+  width: 50vw;
+}
+
+.float--right {
+  float: right;
+}
+
+/*Makes the sections that are on the right of the correct size*/
+.section--overflow {
+  overflow: hidden;
+}
+
+/*Styling for the text in general*/
+.description--text {
+  color: #D0B4D5;
+  font-size: 1.5vw;
+}
+
+.larger--text {
+  font-size: 2vw;
+}
+
+/*Individual styling for the text and images*/
+.jacaranda--flower--text {
+  position: absolute;
+  max-width: 500px;
+  left: 56%;
+  bottom: 30%;
+  }
+
+.jacaranda--flower--text p {
+  padding: 10px 0;
+  text-align: center;
+  text-shadow: 1px 3px 3px black;
+}
+
+
+
+.jacaranda--tree--text {
+  position: absolute;
+  max-width: 500px;
+  bottom: 30%;
+}
+
+.jacaranda--tree--text p {
+  padding: 10px 0;
+  text-align: center;
+  text-shadow: 1px 3px 3px black;
+}
