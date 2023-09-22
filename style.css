@@ -12,6 +12,7 @@ body {
 
 section {
   position: relative;
+  border-bottom: medium solid purple;
 }
 
 
@@ -57,6 +58,7 @@ width: 100%;
 .description--text {
   color: #D0B4D5;
   font-size: 1.5vw;
+  text-shadow: 1px 3px 3px black;
 }
 
 .larger--text {
@@ -74,19 +76,55 @@ width: 100%;
 .jacaranda--flower--text p {
   padding: 10px 0;
   text-align: center;
-  text-shadow: 1px 3px 3px black;
 }
-
 
 
 .jacaranda--tree--text {
   position: absolute;
   max-width: 50%;
-  bottom: 30%;
+  bottom: 40%;
 }
 
 .jacaranda--tree--text p {
-  padding: 10px 0;
+  padding: 30px 0;
   text-align: center;
-  text-shadow: 1px 3px 3px black;
+}
+
+.purple--panic--description {
+  position: absolute;
+  max-width: 500px;
+  left: 56%;
+  bottom: 30%;
+}
+
+.purple--panic--description p {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.caveats--description {
+  position: absolute;
+  max-width: 50%;
+  top: 20%;
+}
+
+.caveats--description p {
+  padding: 30px 0;
+  text-align: center;
+}
+
+/*caption position*/
+.caption {
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  font-size: 1vw;
+}
+
+.caption--left {
+  bottom: 5px;
+}
+
+.caption--right {
+bottom: 5px;
+right: 10px;
 }
